@@ -1,0 +1,255 @@
+{
+  "website": "http://avikjain.me",
+  "email": "avik@avikjain.me",
+  "phone": "(408) 614-6825",
+  "experience": [
+    {
+      "name": "Web Developer",
+      "organization": "SecondGen",
+      "organizationURL": "http://secondgen.org",
+      "start": "June 2016",
+      "end": "Present",
+      "description": "Led the development of the front-end for SecondGen's new interactive member portal.",
+      "keywords": [
+        "secondgen",
+        "developer",
+        "web",
+        "website",
+        "front-end",
+        "frontend",
+        "design",
+        "html",
+        "css",
+        "javascript",
+        "js",
+        "rails",
+        "erb"
+      ]
+    },
+    {
+      "name": "Lead Developer",
+      "organization": "IncubateX",
+      "organizationURL": "http://incubatex.org",
+      "start": "May 2016",
+      "end": "Present",
+      "description": "Led the development of a customizable website template and mobile applications that were used at over 16 hackathons.",
+      "keywords": [
+        "incubatex",
+        "hackathon",
+        "web",
+        "android",
+        "website",
+        "entrepreneurship",
+        "html",
+        "css",
+        "javascript",
+        "js",
+        "java"
+      ]
+    },
+    {
+      "name": "Director of Technology",
+      "organization": "Monta Vista Web and Mobile Development Club",
+      "organizationURL": "http://mvwebdev.com",
+      "start": "May 2016",
+      "end": "Present",
+      "description": "Created the club's new member portal and led the Android and web curriculum development for the 2016-2017 school year.",
+      "keywords": [
+        "teaching",
+        "teach",
+        "club",
+        "web",
+        "mobile",
+        "android",
+        "curriculum",
+        "firebase",
+        "html",
+        "css",
+        "javascript",
+        "js"
+      ]
+    },
+    {
+      "name": "Program Leader and Teacher",
+      "organization": "MathAndCoding",
+      "organizationURL": "http://mathandcoding.org",
+      "start": "January 2016",
+      "end": "Present",
+      "description": "Led workshops teaching students how to program in Java and Python, and created curriculum for and taught an Android App Development workshop using MIT AppInventor.",
+      "keywords": [
+        "teaching",
+        "teach",
+        "volunteer",
+        "java",
+        "python",
+        "android",
+        "appinventor",
+        "curriculum",
+        "workshop"
+      ]
+    },
+    {
+      "name": "Android Development Instructor",
+      "organization": "Monta Vista Web and Mobile Development Club",
+      "organizationURL": "http://mvwebdev.com",
+      "start": "May 2016",
+      "end": "Present",
+      "description": "Created the club's new member portal and led the Android and web curriculum development for the 2016-2017 school year.",
+      "keywords": [
+        "teach",
+        "teaching",
+        "club",
+        "web",
+        "mobile",
+        "android",
+        "java"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "fbash",
+      "url": "http://avikjain.me/fbash",
+      "githubUrl": "https://github.com/avikj/fbash",  
+      "technologies": [
+        "Node.js",
+        "Facebook Messenger"
+      ],
+      "awards": [
+        "Over 1.5k installs through NPM",
+        "Featured in Devpost Newsletter"
+      ],
+      "description": "A Node.js based tool which allows developers to access their command-line through Facebook Messenger and provides additional utilities for collaboration. It is open-source on GitHub and has received an average of 800 installs monthly."
+    },
+    {
+      "name": "SwiftAssist",
+      "url": "http://devpost.com/software/swiftassist-j6r9s2",
+      "githubUrl": "https://github.com/swiftassist/",
+      "technologies": [
+        "Java",
+        "Javascript",
+        "Firebase"
+      ],
+      "awards": [
+        "Best Use of Microsoft Technologies and Finalist @ Los Altos Hacks"
+      ],
+      "description": "A cross-platform application which leverages crowd-sourcing of rapid emergency response. I built the Android and Pebble Smartwatch applications."
+    },
+    {
+      "name": "Flappy Nerd",
+      "url": "https://github.com/avikj/Flappy-Nerd",
+      "githubUrl": "https://github.com/avikj/Flappy-Nerd",
+      "technologies": [
+        "Java",
+        "Swing Framework",
+        "Quizlet API"
+      ],
+      "awards": [
+        "2nd Best Educational Hack @ CU Hacks"
+      ],
+      "description": "A Flappy Bird-based game which takes advantage of its addictive nature to assist the user in studying effectively with data drawn from Quizlet."
+    },
+    {
+      "name": "IncubateX Android App",
+      "url": "https://github.com/IncubateX/AndroidApp",
+      "githubUrl": "https://github.com/IncubateX/AndroidApp",
+      "technologies": [
+        "Java",
+        "Node.js",
+        "Express",
+        "Firebase Cloud Messaging"
+      ],
+      "awards": [
+        "Used at 16+ hackathons"
+      ],
+      "description": "An app which allows hackathon participants to view the time left to hack in a countdown format, displays the event's schedule and venue map, and delivers targeted push notifications based on location."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "type": "language",
+      "level": "experienced"
+    },
+    {
+      "name": "Javascript",
+      "type": "language",
+      "level": "experienced"
+    },
+    {
+      "name": "Swift",
+      "type": "language",
+      "level": "developing"
+    },
+    {
+      "name": "HTML/CSS",
+      "type": "language",
+      "level": "experienced"
+    },
+    {
+      "name": "SASS",
+      "type": "language",
+      "level": "developing"
+    },
+    {
+      "name": "Python",
+      "type": "language",
+      "level": "proficient"
+    },
+    {
+      "name": "Node.js",
+      "type": "framework",
+      "level": "experienced"
+    },
+    {
+      "name": "AngularJS",
+      "type": "framework",
+      "level": "proficient"
+    },
+    {
+      "name": "Firebase",
+      "type": "framework",
+      "level": "experienced"
+    },
+    {
+      "name": "Materialize.css",
+      "type": "framework",
+      "level": "experienced"
+    },
+    {
+      "name": "jQuery",
+      "type": "framework",
+      "level": "experienced"
+    },
+    {
+      "name": "Full-stack Web",
+      "type": "platform",
+      "level": "experienced"
+    },
+    {
+      "name": "Android",
+      "type": "platform",
+      "level": "proficient"
+    },
+    {
+      "name": "iOS",
+      "type": "platform",
+      "level": "developing"
+    },
+    {
+      "name": "Git",
+      "type": "tool",
+      "level": "experienced"
+    },
+    {
+      "name": "npm",
+      "type": "tool",
+      "level": "experienced"
+    },
+    {
+      "name": "Gulp",
+      "type": "tool",
+      "level": "developing"
+    }
+  ]
+}
