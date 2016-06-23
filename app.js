@@ -11,7 +11,9 @@ var router = express.Router();
 
 app.set('json spaces', 2);
 
-var MONGODB_URI = process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost/';
+var MONGODB_URI = process.env.OPENSHIFT_MONGODB_DB_URL
+  ? `mongodb://${process.env.OPENSHIFT_MONGODB_DB_USERNAME}:${process.env.OPENSHIFT_MONGODB_DB_PASSWORD}@${process.env.OPENSHIFT_MONGODB_DB_HOST}:${process.env.OPENSHIFT_MONGODB_DB_PORT}/`
+  : 'mongodb://localhost/';
 mongoose.connect(MONGODB_URI+'avik', reloadData);
 
 router.get('/search', function(req, res){
