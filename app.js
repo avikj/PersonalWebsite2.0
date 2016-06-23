@@ -3,6 +3,7 @@ var Position = require('./models/position');
 var Skill = require('./models/skill');
 var modelMap = require('./utils/modelMap');
 var reloadData = require('./utils/reloadData');
+var mergeSortedArrays = require('./utils/mergeSortedArrays');
 var mongoose = require('mongoose');
 var express = require('express');
 var app = express();
@@ -50,7 +51,7 @@ router.get('/search', function(req, res){
   Promise.all(queryPromises).then(function(searchResults) {
     var searchResultCombination = [];
     for(var i = 0; i < searchResults.length; i++) {
-      searchResultCombination = searchResultCombination.concat(searchResults[i]); // replace with sorted merge algorithm
+      searchResultCombination = mergeSortedArrays(searchResultCombination, searchResults[i]);
     }
     res.json(searchResultCombination);
   });
