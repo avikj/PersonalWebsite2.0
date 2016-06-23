@@ -11,7 +11,8 @@ var router = express.Router();
 
 app.set('json spaces', 2);
 
-mongoose.connect('mongodb://localhost/avik', reloadData);
+var MONGODB_URI = process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost';
+mongoose.connect(MONGODB_URI+'/avik', reloadData);
 
 router.get('/search', function(req, res){
   var queryPromises = [
@@ -79,7 +80,10 @@ router.get('/:field/:name', function(req, res) {
 
 app.use('/api', router);
 
-app.listen(3000, function() {
+var IP_ADDRESS = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+var PORT = process.env.OPENSHIFT_NODEJS_PORT || 3000;
+
+app.listen(PORT, IP_ADDRESS, function() {
   console.log('Listening on port 3000')
 });
 
