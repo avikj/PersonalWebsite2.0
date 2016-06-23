@@ -71,13 +71,17 @@ router.get('/:field', function(req, res) {
 });
 
 router.get('/:field/:name', function(req, res) {
-  modelMap[req.params.field].find({name: req.params.name}, function(err, value) {
-    if(err) {
-      console.error(err);
-    } else {
-      res.json(value);
-    }
-  });
+  try {
+    modelMap[req.params.field].find({name: req.params.name}, function(err, value) {
+      if(err) {
+        console.error(err);
+      } else {
+        res.json(value);
+      }
+    });
+  } catch(e) {
+    res.send('bad request');
+  }
 });
 
 app.use('/api', router);
