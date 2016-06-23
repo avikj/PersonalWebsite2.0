@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
-var data = require('./data');
-var Project = require('./models/project');
-var Position = require('./models/position');
-var Skill = require('./models/skill');
+var data = require('../data/avik');
+var Project = require('../models/project');
+var Position = require('../models/position');
+var Skill = require('../models/skill');
 
 module.exports = function(err) {
   mongoose.connection.db.dropDatabase();
